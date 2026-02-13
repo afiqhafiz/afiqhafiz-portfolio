@@ -113,9 +113,8 @@ const NavBar: React.FC = () => {
               </button>
             ))}
             <a
-              href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/assets/resume.pdf"
+              download="AfiqHafiz_Resume.pdf"
               className="mt-4 px-4 py-3 text-center font-semibold btn-primary rounded-lg text-white"
             >
               Download Resume

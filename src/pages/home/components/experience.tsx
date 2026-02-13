@@ -271,7 +271,7 @@ const Experience: React.FC = () => {
                     className="glass rounded-2xl p-6 cursor-pointer card-hover"
                     onClick={() => toggleExpand(exp.id)}
                   >
-                    <div className="flex items-start justify-between mb-3">
+                    <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-3 gap-2">
                       <div>
                         <h3 className="text-xl font-bold text-white mb-1">
                           {exp.role}
@@ -280,7 +280,7 @@ const Experience: React.FC = () => {
                           {exp.company}
                         </p>
                       </div>
-                      <span className="text-sm text-gray-500 font-mono whitespace-nowrap ml-4">
+                      <span className="text-sm text-gray-500 font-mono sm:text-right">
                         {exp.period}
                       </span>
                     </div>
