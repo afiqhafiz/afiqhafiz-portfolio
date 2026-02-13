@@ -12,6 +12,12 @@ dist
 dist-ssr
 *.local
 
+# Keep package-lock.json for reproducible builds
+# package-lock.json
+
+# Assets - keep folder structure but ignore uploaded files
+# Add your resume.pdf to public/assets/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
