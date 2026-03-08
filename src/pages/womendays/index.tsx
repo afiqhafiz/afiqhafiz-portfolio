@@ -197,7 +197,6 @@ const WomenDaysPage: React.FC = () => {
                             <div className="letter-header">
                                 <span className="heart-decoration">💝</span>
                                 <h2>To Abdah Aliah</h2>
-                                <h2>To Abdah Aliah</h2>
                             </div>
 
                             <div className="letter-body">
